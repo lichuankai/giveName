@@ -1,0 +1,268 @@
+.gn-app {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 1.75rem 1rem 2.5rem;
+}
+
+.gn-hero-top {
+  margin-bottom: 0.75rem;
+}
+
+.gn-back {
+  font-size: 0.875rem;
+  color: #fbbf24;
+  text-decoration: none;
+}
+
+.gn-back:hover {
+  text-decoration: underline;
+}
+
+.gn-hero {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.gn-title {
+  margin: 0 0 0.5rem;
+  font-size: clamp(1.55rem, 4vw, 1.9rem);
+  font-weight: 700;
+  background: linear-gradient(120deg, #fcd34d, #f59e0b, #fde68a);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.gn-sub {
+  margin: 0;
+  color: #94a3b8;
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+.gn-card {
+  background: rgba(20, 24, 32, 0.85);
+  border: 1px solid rgba(251, 191, 36, 0.22);
+  border-radius: 16px;
+  padding: 1.35rem 1.2rem 1.5rem;
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.35);
+}
+
+.gn-section {
+  margin-bottom: 1.25rem;
+}
+
+.gn-section h2 {
+  margin: 0 0 0.35rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #f1f5f9;
+}
+
+.gn-hint {
+  margin: 0 0 0.65rem;
+  font-size: 0.82rem;
+  color: #64748b;
+  line-height: 1.45;
+}
+
+.gn-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.gn-chip {
+  padding: 0.4rem 0.7rem;
+  font-size: 0.82rem;
+  border-radius: 999px;
+  border: 1px solid rgba(71, 85, 105, 0.65);
+  background: rgba(15, 23, 42, 0.65);
+  color: #cbd5e1;
+  cursor: pointer;
+  transition:
+    border-color 0.15s ease,
+    background 0.15s ease,
+    color 0.15s ease;
+}
+
+.gn-chip:hover {
+  border-color: rgba(251, 191, 36, 0.45);
+}
+
+.gn-chip--on {
+  border-color: rgba(251, 191, 36, 0.85);
+  background: rgba(120, 53, 15, 0.35);
+  color: #fef3c7;
+}
+
+.gn-segmented {
+  display: inline-flex;
+  gap: 0.35rem;
+  padding: 0.25rem;
+  border-radius: 10px;
+  background: rgba(15, 23, 42, 0.75);
+  border: 1px solid rgba(51, 65, 85, 0.65);
+}
+
+.gn-seg-btn {
+  padding: 0.4rem 0.85rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  background: transparent;
+  color: #94a3b8;
+  cursor: pointer;
+}
+
+.gn-seg-btn--on {
+  background: rgba(245, 158, 11, 0.25);
+  color: #fde68a;
+}
+
+.gn-input {
+  width: 100%;
+  max-width: 16rem;
+  padding: 0.55rem 0.7rem;
+  border-radius: 10px;
+  border: 1px solid rgba(71, 85, 105, 0.65);
+  background: rgba(15, 23, 42, 0.9);
+  color: #e2e8f0;
+  font-size: 0.9rem;
+}
+
+.gn-input:focus {
+  outline: none;
+  border-color: rgba(251, 191, 36, 0.55);
+  box-shadow: 0 0 0 2px rgba(245, 158, 11, 0.2);
+}
+
+.gn-textarea {
+  width: 100%;
+  padding: 0.65rem 0.75rem;
+  border-radius: 10px;
+  border: 1px solid rgba(71, 85, 105, 0.65);
+  background: rgba(15, 23, 42, 0.9);
+  color: #e2e8f0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  resize: vertical;
+  min-height: 5.5rem;
+}
+
+.gn-textarea:focus {
+  outline: none;
+  border-color: rgba(251, 191, 36, 0.55);
+  box-shadow: 0 0 0 2px rgba(245, 158, 11, 0.2);
+}
+
+.gn-actions {
+  margin-top: 0.25rem;
+}
+
+.gn-btn {
+  padding: 0.55rem 1.2rem;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+.gn-btn-primary {
+  background: linear-gradient(135deg, #d97706, #f59e0b);
+  color: #1c1917;
+}
+
+.gn-btn-primary:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.gn-alert {
+  margin-top: 1rem;
+  padding: 0.75rem 0.85rem;
+  border-radius: 10px;
+  background: rgba(127, 29, 29, 0.25);
+  border: 1px solid rgba(248, 113, 113, 0.35);
+  color: #fecaca;
+  font-size: 0.88rem;
+}
+
+.gn-alert-detail {
+  margin: 0.5rem 0 0;
+  font-size: 0.8rem;
+  color: #fca5a5;
+  line-height: 1.45;
+}
+
+.gn-alert code {
+  padding: 0.05em 0.3em;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.gn-result {
+  margin-top: 1.35rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid rgba(51, 65, 85, 0.65);
+}
+
+.gn-result-title {
+  margin: 0 0 0.75rem;
+  font-size: 1.05rem;
+}
+
+.gn-markdown {
+  font-size: 0.9rem;
+  line-height: 1.65;
+  color: #cbd5e1;
+}
+
+.gn-markdown h2 {
+  margin: 1.25rem 0 0.5rem;
+  font-size: 1.05rem;
+  color: #fde68a;
+}
+
+.gn-markdown h2:first-child {
+  margin-top: 0;
+}
+
+.gn-markdown h3 {
+  margin: 1rem 0 0.4rem;
+  font-size: 0.98rem;
+  color: #f8fafc;
+}
+
+.gn-markdown h4 {
+  margin: 0.65rem 0 0.25rem;
+  font-size: 0.88rem;
+  color: #fcd34d;
+}
+
+.gn-markdown p {
+  margin: 0.35rem 0;
+}
+
+.gn-markdown ul,
+.gn-markdown ol {
+  margin: 0.35rem 0 0.5rem;
+  padding-left: 1.25rem;
+}
+
+.gn-markdown code {
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+  background: rgba(120, 53, 15, 0.35);
+  color: #fde68a;
+  font-size: 0.85em;
+}
+
+.gn-footer {
+  margin-top: 1.5rem;
+  text-align: center;
+  color: #64748b;
+  font-size: 0.78rem;
+}
